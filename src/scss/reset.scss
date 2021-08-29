@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box; // chieu dai element bao gom border
+}
+ul,ol{
+    list-style: none;
+}
+//code mac dinh cua form
+input{
+    border: none; // bo khung
+    outline: none; 
+}
+input, button {
+    outline: none;
+    border: none;
+    background: none;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+}

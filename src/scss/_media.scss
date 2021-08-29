@@ -1,0 +1,45 @@
+//$xs:576px;
+// nhung man hinh co kich thuoc lon hon 992px --> lg > 992px;
+// xs < 576px;
+// sm > 576px;
+// md > 768px;
+// lg > 992px;
+// xl > 1200px;
+
+// col-sx-12 col-sm-3 col-md-6 col-lg-4
+
+@mixin xs() {  
+    @media(max-width: 576px)
+    {
+        @content;
+
+    }
+}
+@mixin sm() {  
+    @media(max-width: 768px)
+    {
+        @content;
+
+    }
+}
+@mixin md() {  
+    @media(max-width: 992px)
+    {
+        @content;
+
+    }
+}
+@mixin lg() {  
+    @media(max-width: 1140px)
+    {
+        @content;
+
+    }
+}
+@mixin xl() {  
+    @media(min-width: 1140px)
+    {
+        @content;
+
+    }
+}
